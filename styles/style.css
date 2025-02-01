@@ -1,5 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-*{
-    font-family:  "Quicksand", serif;
+* {
+    font-family: "Quicksand", serif;
+    padding: 0;
+    margin: 0;
 }
+
+body {
+    background-image: linear-gradient(rgba(247, 247, 247, .30), rgba(254, 163, 1, .30)), url(../assets/bg.png);
+    width: auto;
+    height: 1800px;
+}
+
+/* navigation section style start here */
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+#item1 {
+    color: rgb(254, 163, 1);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#item2 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+
+#item3 {
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+
+}
+
+#item4 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+}
+
+.primary-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+    padding: 10px;
+    
+}
+
+/* navigation section style end here */
